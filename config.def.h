@@ -5,10 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus (TTF):pixelsize=20:antialias=true:autohint=true";
+static char *font = "Terminus (TTF):pixelsize=24:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-  "Apple Color Emoji:pixelsize=20:antialias=true:autohint=true",
+  "Apple Color Emoji:pixelsize=24:antialias=true:autohint=true",
+  "Symbols Nerd Font Mono:pixelsize=24:antialias=true:autohint=true",
+  "Font Awesome:pixelsize=24:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
